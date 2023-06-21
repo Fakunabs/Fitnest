@@ -1,0 +1,795 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1CB4E4122A42B4010083747C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CB4E4112A42B4010083747C /* AppDelegate.swift */; };
+		1CB4E4142A42B4010083747C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CB4E4132A42B4010083747C /* SceneDelegate.swift */; };
+		1CB4E41B2A42B4040083747C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1CB4E41A2A42B4040083747C /* Assets.xcassets */; };
+		1CB4E41E2A42B4040083747C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1CB4E41C2A42B4040083747C /* LaunchScreen.storyboard */; };
+		1CB4E44B2A42D4B10083747C /* SplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CB4E4492A42D4B10083747C /* SplashViewController.swift */; };
+		1CB4E44C2A42D4B10083747C /* SplashViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1CB4E44A2A42D4B10083747C /* SplashViewController.xib */; };
+		1CB4E44E2A42D5830083747C /* NSObject+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CB4E44D2A42D5830083747C /* NSObject+Extension.swift */; };
+		73684635BA96170AA316217A /* Pods_Fitnest_FitnestUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA8537C93077300E4C0C7534 /* Pods_Fitnest_FitnestUITests.framework */; };
+		96A66D645EE0F2E13BD10CD7 /* Pods_FitnestTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F02E1EFCA32FBA0D97C14862 /* Pods_FitnestTests.framework */; };
+		D7DAC2E2556D7B8ECB0F67F8 /* Pods_Fitnest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C18A0428E9D5F99B27F3E6D /* Pods_Fitnest.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1CB4E4252A42B4040083747C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1CB4E4062A42B4010083747C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1CB4E40D2A42B4010083747C;
+			remoteInfo = Fitnest;
+		};
+		1CB4E42F2A42B4040083747C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1CB4E4062A42B4010083747C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1CB4E40D2A42B4010083747C;
+			remoteInfo = Fitnest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		159D02F90A059253876FE4EC /* Pods-Fitnest-FitnestUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Fitnest-FitnestUITests.release.xcconfig"; path = "Target Support Files/Pods-Fitnest-FitnestUITests/Pods-Fitnest-FitnestUITests.release.xcconfig"; sourceTree = "<group>"; };
+		1CB4E40E2A42B4010083747C /* Fitnest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Fitnest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1CB4E4112A42B4010083747C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1CB4E4132A42B4010083747C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		1CB4E41A2A42B4040083747C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1CB4E41D2A42B4040083747C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1CB4E41F2A42B4040083747C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1CB4E4242A42B4040083747C /* FitnestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FitnestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1CB4E42E2A42B4040083747C /* FitnestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FitnestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1CB4E4492A42D4B10083747C /* SplashViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashViewController.swift; sourceTree = "<group>"; };
+		1CB4E44A2A42D4B10083747C /* SplashViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SplashViewController.xib; sourceTree = "<group>"; };
+		1CB4E44D2A42D5830083747C /* NSObject+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSObject+Extension.swift"; sourceTree = "<group>"; };
+		49E88A45122D71A4CB1B09DA /* Pods-Fitnest-FitnestUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Fitnest-FitnestUITests.debug.xcconfig"; path = "Target Support Files/Pods-Fitnest-FitnestUITests/Pods-Fitnest-FitnestUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		635C8F5CD3C37A2270A173D6 /* Pods-FitnestTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FitnestTests.release.xcconfig"; path = "Target Support Files/Pods-FitnestTests/Pods-FitnestTests.release.xcconfig"; sourceTree = "<group>"; };
+		9C18A0428E9D5F99B27F3E6D /* Pods_Fitnest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Fitnest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C63BF56F63831904B956572 /* Pods-Fitnest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Fitnest.debug.xcconfig"; path = "Target Support Files/Pods-Fitnest/Pods-Fitnest.debug.xcconfig"; sourceTree = "<group>"; };
+		BA8537C93077300E4C0C7534 /* Pods_Fitnest_FitnestUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Fitnest_FitnestUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E57AE206DB33C7FE101FD87E /* Pods-Fitnest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Fitnest.release.xcconfig"; path = "Target Support Files/Pods-Fitnest/Pods-Fitnest.release.xcconfig"; sourceTree = "<group>"; };
+		EAFE9B129B5C23FE22B2D53A /* Pods-FitnestTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FitnestTests.debug.xcconfig"; path = "Target Support Files/Pods-FitnestTests/Pods-FitnestTests.debug.xcconfig"; sourceTree = "<group>"; };
+		F02E1EFCA32FBA0D97C14862 /* Pods_FitnestTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FitnestTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1CB4E40B2A42B4010083747C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7DAC2E2556D7B8ECB0F67F8 /* Pods_Fitnest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1CB4E4212A42B4040083747C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96A66D645EE0F2E13BD10CD7 /* Pods_FitnestTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1CB4E42B2A42B4040083747C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				73684635BA96170AA316217A /* Pods_Fitnest_FitnestUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1CB4E4052A42B4010083747C = {
+			isa = PBXGroup;
+			children = (
+				1CB4E4102A42B4010083747C /* Fitnest */,
+				1CB4E40F2A42B4010083747C /* Products */,
+				B1BF06EA8D34BD10A66D5B23 /* Pods */,
+				3ECA99B2671DBDA7D97DF346 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		1CB4E40F2A42B4010083747C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1CB4E40E2A42B4010083747C /* Fitnest.app */,
+				1CB4E4242A42B4040083747C /* FitnestTests.xctest */,
+				1CB4E42E2A42B4040083747C /* FitnestUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1CB4E4102A42B4010083747C /* Fitnest */ = {
+			isa = PBXGroup;
+			children = (
+				1CB4E4472A42D4290083747C /* Storyboard */,
+				1CB4E4462A42D3F60083747C /* Services */,
+				1CB4E4452A42D3EB0083747C /* Resources */,
+				1CB4E4442A42D3A90083747C /* Model */,
+				1CB4E4432A42D34D0083747C /* Extensions */,
+				1CB4E4422A42D33F0083747C /* Controller */,
+				1CB4E4412A42D3370083747C /* Constants */,
+				1CB4E4112A42B4010083747C /* AppDelegate.swift */,
+				1CB4E4132A42B4010083747C /* SceneDelegate.swift */,
+				1CB4E41F2A42B4040083747C /* Info.plist */,
+			);
+			path = Fitnest;
+			sourceTree = "<group>";
+		};
+		1CB4E4412A42D3370083747C /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		1CB4E4422A42D33F0083747C /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				1CB4E4482A42D4950083747C /* SplashScreen */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		1CB4E4432A42D34D0083747C /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				1CB4E44D2A42D5830083747C /* NSObject+Extension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		1CB4E4442A42D3A90083747C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		1CB4E4452A42D3EB0083747C /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				1CB4E41A2A42B4040083747C /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		1CB4E4462A42D3F60083747C /* Services */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		1CB4E4472A42D4290083747C /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				1CB4E41C2A42B4040083747C /* LaunchScreen.storyboard */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		1CB4E4482A42D4950083747C /* SplashScreen */ = {
+			isa = PBXGroup;
+			children = (
+				1CB4E4492A42D4B10083747C /* SplashViewController.swift */,
+				1CB4E44A2A42D4B10083747C /* SplashViewController.xib */,
+			);
+			path = SplashScreen;
+			sourceTree = "<group>";
+		};
+		3ECA99B2671DBDA7D97DF346 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9C18A0428E9D5F99B27F3E6D /* Pods_Fitnest.framework */,
+				BA8537C93077300E4C0C7534 /* Pods_Fitnest_FitnestUITests.framework */,
+				F02E1EFCA32FBA0D97C14862 /* Pods_FitnestTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B1BF06EA8D34BD10A66D5B23 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9C63BF56F63831904B956572 /* Pods-Fitnest.debug.xcconfig */,
+				E57AE206DB33C7FE101FD87E /* Pods-Fitnest.release.xcconfig */,
+				49E88A45122D71A4CB1B09DA /* Pods-Fitnest-FitnestUITests.debug.xcconfig */,
+				159D02F90A059253876FE4EC /* Pods-Fitnest-FitnestUITests.release.xcconfig */,
+				EAFE9B129B5C23FE22B2D53A /* Pods-FitnestTests.debug.xcconfig */,
+				635C8F5CD3C37A2270A173D6 /* Pods-FitnestTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1CB4E40D2A42B4010083747C /* Fitnest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1CB4E4382A42B4040083747C /* Build configuration list for PBXNativeTarget "Fitnest" */;
+			buildPhases = (
+				DDB391E0FEF8B81502B904EF /* [CP] Check Pods Manifest.lock */,
+				1CB4E40A2A42B4010083747C /* Sources */,
+				1CB4E40B2A42B4010083747C /* Frameworks */,
+				1CB4E40C2A42B4010083747C /* Resources */,
+				94554B837FAC13258AB4C969 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Fitnest;
+			productName = Fitnest;
+			productReference = 1CB4E40E2A42B4010083747C /* Fitnest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1CB4E4232A42B4040083747C /* FitnestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1CB4E43B2A42B4040083747C /* Build configuration list for PBXNativeTarget "FitnestTests" */;
+			buildPhases = (
+				FBFA00F5497A519868099680 /* [CP] Check Pods Manifest.lock */,
+				1CB4E4202A42B4040083747C /* Sources */,
+				1CB4E4212A42B4040083747C /* Frameworks */,
+				1CB4E4222A42B4040083747C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1CB4E4262A42B4040083747C /* PBXTargetDependency */,
+			);
+			name = FitnestTests;
+			productName = FitnestTests;
+			productReference = 1CB4E4242A42B4040083747C /* FitnestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1CB4E42D2A42B4040083747C /* FitnestUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1CB4E43E2A42B4040083747C /* Build configuration list for PBXNativeTarget "FitnestUITests" */;
+			buildPhases = (
+				56CD87E6818358942F8EA595 /* [CP] Check Pods Manifest.lock */,
+				1CB4E42A2A42B4040083747C /* Sources */,
+				1CB4E42B2A42B4040083747C /* Frameworks */,
+				1CB4E42C2A42B4040083747C /* Resources */,
+				D06529EE9160DF3E68F0D542 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1CB4E4302A42B4040083747C /* PBXTargetDependency */,
+			);
+			name = FitnestUITests;
+			productName = FitnestUITests;
+			productReference = 1CB4E42E2A42B4040083747C /* FitnestUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1CB4E4062A42B4010083747C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					1CB4E40D2A42B4010083747C = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					1CB4E4232A42B4040083747C = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 1CB4E40D2A42B4010083747C;
+					};
+					1CB4E42D2A42B4040083747C = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 1CB4E40D2A42B4010083747C;
+					};
+				};
+			};
+			buildConfigurationList = 1CB4E4092A42B4010083747C /* Build configuration list for PBXProject "Fitnest" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1CB4E4052A42B4010083747C;
+			productRefGroup = 1CB4E40F2A42B4010083747C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1CB4E40D2A42B4010083747C /* Fitnest */,
+				1CB4E4232A42B4040083747C /* FitnestTests */,
+				1CB4E42D2A42B4040083747C /* FitnestUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1CB4E40C2A42B4010083747C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1CB4E41E2A42B4040083747C /* LaunchScreen.storyboard in Resources */,
+				1CB4E44C2A42D4B10083747C /* SplashViewController.xib in Resources */,
+				1CB4E41B2A42B4040083747C /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1CB4E4222A42B4040083747C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1CB4E42C2A42B4040083747C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		56CD87E6818358942F8EA595 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Fitnest-FitnestUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		94554B837FAC13258AB4C969 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Fitnest/Pods-Fitnest-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Fitnest/Pods-Fitnest-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Fitnest/Pods-Fitnest-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D06529EE9160DF3E68F0D542 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Fitnest-FitnestUITests/Pods-Fitnest-FitnestUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Fitnest-FitnestUITests/Pods-Fitnest-FitnestUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Fitnest-FitnestUITests/Pods-Fitnest-FitnestUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DDB391E0FEF8B81502B904EF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Fitnest-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FBFA00F5497A519868099680 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FitnestTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1CB4E40A2A42B4010083747C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1CB4E44B2A42D4B10083747C /* SplashViewController.swift in Sources */,
+				1CB4E4122A42B4010083747C /* AppDelegate.swift in Sources */,
+				1CB4E4142A42B4010083747C /* SceneDelegate.swift in Sources */,
+				1CB4E44E2A42D5830083747C /* NSObject+Extension.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1CB4E4202A42B4040083747C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1CB4E42A2A42B4040083747C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1CB4E4262A42B4040083747C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1CB4E40D2A42B4010083747C /* Fitnest */;
+			targetProxy = 1CB4E4252A42B4040083747C /* PBXContainerItemProxy */;
+		};
+		1CB4E4302A42B4040083747C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1CB4E40D2A42B4010083747C /* Fitnest */;
+			targetProxy = 1CB4E42F2A42B4040083747C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1CB4E41C2A42B4040083747C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1CB4E41D2A42B4040083747C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1CB4E4362A42B4040083747C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1CB4E4372A42B4040083747C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1CB4E4392A42B4040083747C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9C63BF56F63831904B956572 /* Pods-Fitnest.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9YN9674B5Y;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Fitnest/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = io.XuanThinh.Fitnest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1CB4E43A2A42B4040083747C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E57AE206DB33C7FE101FD87E /* Pods-Fitnest.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9YN9674B5Y;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Fitnest/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = io.XuanThinh.Fitnest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		1CB4E43C2A42B4040083747C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EAFE9B129B5C23FE22B2D53A /* Pods-FitnestTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9YN9674B5Y;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = io.XuanThinh.FitnestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Fitnest.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Fitnest";
+			};
+			name = Debug;
+		};
+		1CB4E43D2A42B4040083747C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 635C8F5CD3C37A2270A173D6 /* Pods-FitnestTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9YN9674B5Y;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = io.XuanThinh.FitnestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Fitnest.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Fitnest";
+			};
+			name = Release;
+		};
+		1CB4E43F2A42B4040083747C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 49E88A45122D71A4CB1B09DA /* Pods-Fitnest-FitnestUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9YN9674B5Y;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = io.XuanThinh.FitnestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Fitnest;
+			};
+			name = Debug;
+		};
+		1CB4E4402A42B4040083747C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 159D02F90A059253876FE4EC /* Pods-Fitnest-FitnestUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9YN9674B5Y;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = io.XuanThinh.FitnestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Fitnest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1CB4E4092A42B4010083747C /* Build configuration list for PBXProject "Fitnest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1CB4E4362A42B4040083747C /* Debug */,
+				1CB4E4372A42B4040083747C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1CB4E4382A42B4040083747C /* Build configuration list for PBXNativeTarget "Fitnest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1CB4E4392A42B4040083747C /* Debug */,
+				1CB4E43A2A42B4040083747C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1CB4E43B2A42B4040083747C /* Build configuration list for PBXNativeTarget "FitnestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1CB4E43C2A42B4040083747C /* Debug */,
+				1CB4E43D2A42B4040083747C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1CB4E43E2A42B4040083747C /* Build configuration list for PBXNativeTarget "FitnestUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1CB4E43F2A42B4040083747C /* Debug */,
+				1CB4E4402A42B4040083747C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1CB4E4062A42B4010083747C /* Project object */;
+}
